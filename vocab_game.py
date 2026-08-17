@@ -100,11 +100,11 @@ st.session_state.ans2_val = ans2
 
 # 3. ช่องรับคำตอบ (ใช้ value ผูกกับตัวแปรตรงๆ เพื่อสั่งเคลียร์ได้)
 ans1 = st.text_input(
-    "ข้อ 1: An `p _ _ c h` a day keeps the doctor away. 🍎",
+    "ข้อ 3: An `p _ _ c h` a day keeps the doctor away. 🍑 ",
     value=st.session_state.ans1_val,
 )
 ans2 = st.text_input(
-    "ข้อ 2: Cats love to eat `p _ n `. 🐟",
+    "ข้อ 4: Cats love to eat `p _ n `. 🖊️",
     value=st.session_state.ans2_val,
 )
 
